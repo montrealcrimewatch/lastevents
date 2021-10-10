@@ -1,0 +1,121 @@
+hr {
+  border-style: none;
+  border-top-style: dashed;
+  border-color : #334756;
+  border-width: 5px;
+  width: 3%;
+}
+
+h1{
+  color: white;
+  font-size: 40px;
+  margin: 0;
+  margin-top: 40px;
+  text-align: center;
+  font-family: "Courier New";
+}
+
+h3 {
+  color : white;
+font-size: 30px;
+  text-align: center;
+  margin: 5px;
+  padding-bottom: 40px;
+  font-family: "Courier New";
+}
+
+h4{
+  color : white;
+  text-align: center;
+  margin-top: 50px;
+  font-family: "Courier";
+}
+
+body{
+  margin: 0;
+  background-color: black;
+}
+
+img{
+  margin-right: 150%;
+}
+
+
+.dead{
+  color: #FF2626;
+}
+
+.entete-container{
+  padding: 10px;
+  padding-bottom: 0;
+}
+
+.top-container{
+ background-color: black;
+ margin-left: 20.5%;
+ margin-top: 0;
+ margin-bottom: 5%;
+ color: white;
+   font-family: "Courier";
+   text-align: center
+}
+
+.bottom-container{
+  text-align: center;
+  font-family: "courier";
+  color: white;
+  margin-left: 32%;
+  margin-bottom: 5%;
+}
+
+/* Resize images */
+.bottom-container img {
+    width: 4%;
+    height: auto;
+}
+
+.bottom-container td {
+    width: 1%;
+    height: auto;
+    padding-right: 0%
+
+}
+
+.MONTREAL{
+      width: 200px;
+      height: 120px;
+    margin-left: 47%;
+    margin-top: 10px;
+  }
+
+  .events{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+  }
+
+.events th,
+.events td {
+  padding: 12px 15px;
+}
+
+.events tbody tr {
+  border-bottom: 1px solid;
+}
+
+#bottom-line{
+  margin-bottom:45px;
+  margin-top: 50px;
+}
+
+#last{
+  font-family: "Courier New";
+  animation: blinker 1s step-start infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Montreal Crime Watch</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="images/favicon.ico">
+</head>
+
+<style>
+  img {
+    height: 90px;
+  }
+</style>
+
+<body>
+  <div class="entete-container">
+    <h1>MONTREAL CRIME WATCH</h1>
+    <h3><strong>Gang violence is on the rise</strong></h3>
+    <hr>
+    <h4 style="font-size: 18px; font-weight: bold;">Lasts events - Fall 2021</h4>
+  </div>
+  <div class="top-container">
+    <table class="events">
+      <tr style="font-size: 18px; font-weight: bold;">
+        <td>Date</td>
+        <td>Time</td>
+        <td>Nature</td>
+        <td>Location</td>
+        <td>Borough</td>
+        <td>Casualties</td>
+      </tr>
+      <tr id=last>
+        <td>10/10/2021</td>
+        <td>02:00 am</td>
+        <td>Arson</td>
+        <td>Robertine-Barry/Claude-Gauvreau</td>
+        <td>Ahuntsic-Cartierville</td>
+        <td>no casualties</td>
+      </tr>
+      <tr>
+        <td>10/08/2021</td>
+        <td>09:30 pm</td>
+        <td>Shooting</td>
+        <td>Mnt Monette/Ivan-Pavlov blvd</td>
+        <td>Laval</td>
+        <td>one injured</td>
+      </tr>
+      <tr>
+        <td>10/05/2021</td>
+        <td>03:45 am</td>
+        <td>Arson</td>
+        <td>Henri-Bourassa blvd/Wilfrid-Reid</td>
+        <td>Saint-Laurent</td>
+        <td>no casualties</td>
+      </tr>
+      <tr>
+        <td>10/02/2021</td>
+        <td>07:15 am</td>
+        <td>Shooting</td>
+        <td>Joseph Dubreuil/32th av.</td>
+        <td>Lachine</td>
+        <td>no casualties</td>
+      </tr>
+      <tr>
+        <td>10/01/2021</td>
+        <td>11:30 pm</td>
+        <td>Arson</td>
+        <td>Maurice-Duplessis/Pierre-Baillargeon</td>
+        <td>Riviere-des-Prairies</td>
+        <td>no casualties</td>
+      </tr>
+      <tr>
+        <td>09/30/2021</td>
+        <td>01:00 am</td>
+        <td>Shooting</td>
+        <td>Dupuis/Victoria</td>
+        <td>Cote-des-Neiges</td>
+        <td>one injured</td>
+      </tr>
+      <tr>
+        <td>09/28/2021</td>
+        <td>00:00 am</td>
+        <td>Shooting</td>
+        <td>Decarie/Duncan</td>
+        <td>Mount-Royal</td>
+        <td>no casualties</td>
+      </tr>
+      <tr>
+        <td>09/28/2021</td>
+        <td>00:00 am</td>
+        <td>Shooting</td>
+        <td>Surrey/Dover</td>
+        <td>Mount-Royal</td>
+        <td>one injured</td>
+      </tr>
+      <tr>
+        <td>09/26/2021</td>
+        <td>05:15 pm</td>
+        <td>Shooting</td>
+        <td>La Matapedia st.</td>
+        <td>Repentigny</td>
+        <td>one injured</td>
+      </tr>
+      <tr>
+        <td>09/26/2021</td>
+        <td>12:00 pm</td>
+        <td>Shooting</td>
+        <td>7th Avenue/Maurice-Duplessis</td>
+        <td>Riviere-des-Prairies</td>
+        <td>one injured</td>
+      </tr>
+      <tr>
+        <td>09/26/2021</td>
+        <td>08:30 am</td>
+        <td>Armed assault</td>
+        <td>Saint-Laurent blvd</td>
+        <td>Brossard</td>
+        <td>one injured</td>
+      </tr>
+      <tr>
+        <td>09/25/2021</td>
+        <td>04:30 am</td>
+        <td>Shooting</td>
+        <td>Location unknown (mtl hospital)</td>
+        <td>unknown</td>
+        <td>one <span class="dead">dead</span></td>
+      </tr>
+      <tr>
+        <td>09/25/2021</td>
+        <td>04:15 am</td>
+        <td>Armed assault</td>
+        <td>Provost/13th Avenue</td>
+        <td>Lachine</td>
+        <td>one injured</td>
+      </tr>
+      <tr>
+        <td>09/25/2021</td>
+        <td>04:15 am</td>
+        <td>Shooting</td>
+        <td>De Seve/Drake</td>
+        <td>South-West</td>
+        <td>no casualties</td>
+      </tr>
+      <tr>
+        <td>09/24/2021</td>
+        <td>05:00 pm</td>
+        <td>Shooting</td>
+        <td>Jean-Talon/Bellefeuille</td>
+        <td>Saint-Leonard</td>
+        <td>no casualties</td>
+      </tr>
+      <tr>
+        <td>09/21/2021</td>
+        <td>03:30 pm</td>
+        <td>Shooting</td>
+        <td>Levesque blvd east/Tangara</td>
+        <td>Laval</td>
+        <td>one injured</td>
+      </tr>
+      <tr>
+        <td>09/21/2021</td>
+        <td>01:45 am</td>
+        <td>Shooting</td>
+        <td>Leclaire/Hochelaga</td>
+        <td>Hochelaga-Maisonneuve</td>
+        <td>no casualties</td>
+      </tr>
+      <tr>
+        <td>09/19/2021</td>
+        <td>06:15 am</td>
+        <td>Shooting</td>
+        <td>Location unknown</td>
+        <td>Laval</td>
+        <td>no casualties</td>
+      </tr>
+      <tr>
+        <td>09/18/2021</td>
+        <td>01:45 am</td>
+        <td>Armed assault</td>
+        <td>Sherbrooke/Mansfield</td>
+        <td>Ville-Marie</td>
+        <td>one injured, one <span class="dead">dead</span></td>
+      </tr>
+      <tr>
+        <td>09/18/2021</td>
+        <td>00:00 am</td>
+        <td>Armed assault</td>
+        <td>Saint-Laurent/de l'Arcade</td>
+        <td>Mile-End</td>
+        <td>one injured</td>
+      </tr>
+      <tr>
+        <td>09/17/2021</td>
+        <td>00:30 am</td>
+        <td>Violent assault</td>
+        <td>Prud'homme av.</td>
+        <td>Cote-des-Neiges</td>
+        <td>one injured</td>
+      </tr>
+      <tr>
+        <td>09/16/2021</td>
+        <td>00:35 am</td>
+        <td>Shooting</td>
+        <td>Despreaux/Valdombre</td>
+        <td>Saint-Leonard</td>
+        <td>one injured</td>
+      </tr>
+      <tr>
+        <td>09/15/2021</td>
+        <td>03:50 pm</td>
+        <td>Shooting</td>
+        <td>Emile-Journault/9th av.</td>
+        <td>Saint-Michel</td>
+        <td>one injured</td>
+      </tr>
+      <tr>
+        <td>09/14/2021</td>
+        <td>11:00 pm</td>
+        <td>Shooting</td>
+        <td>Leandre-Descotes/Henri-Duplessis</td>
+        <td>Laval</td>
+        <td>2 injured</td>
+      </tr>
+      <tr>
+        <td>09/12/2021</td>
+        <td>01:30 pm</td>
+        <td>Home invasion</td>
+        <td>Location unknown</td>
+        <td>Lasalle</td>
+        <td>one <span class="dead">dead</span></td>
+      </tr>
+    </table>
+  </div>
+  <div class="bottom-container">
+    <table>
+      <tr>
+        <td><a href="https://spvm.qc.ca/en/Pages/Report-an-event/COVID19--Report-a-situation-online">Report</a> an incident to the police</p></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="contactus.html">Report</a> an incident to us</p></td>
+        <td></td>
+      </tr>
+    </table>
+  </div>
+</body>
+</html>
