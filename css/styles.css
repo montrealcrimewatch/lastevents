@@ -52,12 +52,11 @@ img{
 
 .top-container{
  background-color: black;
- margin-left: 20.5%;
- margin-top: 0;
- margin-bottom: 5%;
  color: white;
-   font-family: "Courier";
-   text-align: center
+ font-family: "Courier";
+ margin-right:auto;
+ margin-left: auto;
+ align-items: center;
 }
 
 .bottom-container{
@@ -66,6 +65,7 @@ img{
   color: white;
   margin-left: 32%;
   margin-bottom: 5%;
+  margin-top: 3%;
 }
 
 /* Resize images */
@@ -90,9 +90,10 @@ img{
 
   .events{
     border-collapse: collapse;
-    margin: 25px 0;
     font-size: 0.9em;
     min-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 .events th,
@@ -102,7 +103,9 @@ img{
 
 .events tbody tr {
   border-bottom: 1px solid;
+
 }
+
 
 #bottom-line{
   margin-bottom:45px;
